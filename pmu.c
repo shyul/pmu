@@ -122,15 +122,15 @@ the ATtiny will go to CPU_CONTROL.
 SELFPRGEN = [ ]
 DWEN = [ ]
 BODLEVEL = 4V3
-RSTDISBL = [X]  (If the reset is not disabled, weird things happens a lot, eg: pull down SHDNn_OUT will randomly reset the PMU -- ATtiny13A)
-SPIEN = [X]
+RSTDISBL = [X]
+SPIEN = [ ]
 EESAVE = [ ]
 WDTON = [ ]
 CKDIV8 = [X]
 SUT_CKSEL = INTRCOSC_9MHZ6_14CK_0MS
 
 HIGH = 0xF8 (valid)
-LOW = 0x62 (valid)
+LOW = 0xE2 (valid)
 
  */ 
 
